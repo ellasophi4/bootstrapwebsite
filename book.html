@@ -55,10 +55,10 @@
  <!----Start Book Now Page---->
 <!--Top image (Change)-->
 <section class="bg-dark text-light p-3 text-left">
-<div class="container">
-  <div class="row">
-    <img src="images/speakeasyguests.jpeg" class="img-fluid" alt="Speakeasy guests">
-  </div>
+  <div class="container">
+    <div class="row">
+      <img src="images/speakeasyguests.jpeg" class="img-fluid" alt="Speakeasy guests">
+    </div>
   <div class="row pt-3">
     <p>
       there is gonna be some text here but idk what it will say
@@ -68,47 +68,63 @@
   <div class="row pt-3">
     <div class="col">
       <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name">
-          </div>
-        </div>
+      <!--Name choose-->
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+      </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+        <!--Email choose-->
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="FormEmailInput">Email address:</label>
+          <input type="email" class="form-control" id="FormEmailInput" placeholder="name@example.com">
         </div>
+        <!--Mobile choose-->
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Package Choice:</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <label for="FormNumberInput">Mobile Number:</label>
+          <input type="number" class="form-control" id="FormNumberInput" placeholder="+44 ...">
+        </div>
+        <!--Package select-->
+        <div class="form-group">
+          <label for="packageSelect" >Package Choice:</label>
+          <select class="form-control" id="packageSelect">
             <option>No Holds Bar</option>
             <option>Open Bar</option>
             <option>Token Bar</option>
             <option>Welcome Bar</option>
           </select>
         </div>
+        <!--Request Date-->
         <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+          <label for="DateInput">Request Date:</label>
+          <input type="date" class="form-control" id="DateInput">
         </div>
+        <!--Guests-->
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="GuestInput">Number of Guests:</label>
+          <input type="number" class="form-control" id="GuestInput" placeholder="e.g., 20">
         </div>
+        <!--Additional Info-->
+        <div class="form-group">
+          <label for="AdditionalInfo">Additional Information:</label>
+          <textarea class="form-control" id="AdditionalInfo" rows="3"></textarea>
+        </div>
+      
+        </div>
+      </div>
+      <div>
+        <button type="submit" class = "btn btn-light">Submit Now
+        </button>
+      </div>
       </form>
     </div>
   </div>
     </div>
+    </div>
   </div>
-</div>
 <!--Form End-->
   </section>
 <!--Top image end-->
