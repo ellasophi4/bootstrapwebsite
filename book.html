@@ -17,43 +17,105 @@
 </head>
 
 <body>
-    <!--Begin Top Navigation Bar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="container">
-          <a href="home.html" class="navbar-brand" href="#">Poison</a>
+<!--Begin Top Navigation Bar -->
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     <div class="container">
+       <a href="home.html" class="navbar-brand" href="#">Poison</a>
 
-          <button class="navbar-toggler" 
-          type= "button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navmenu"
-          >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" 
+        type= "button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu"
+        >
+        <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class= "navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="book.html" class="nav-link">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a href="drinks.html" class="nav-link">Cocktails</a>
+            </li>
+            <li class="nav-item">
+              <a href="packages.html" class="nav-link">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a href="pricing.html" class="nav-link">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ <!--End Top Navigation Bar -->  
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class= "navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="book.html" class="nav-link">Book Now</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="drinks.html" class="nav-link">Cocktails</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="packages.html" class="nav-link">Packages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pricing.html" class="nav-link">Prices</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-        <!--End Top Navigation Bar -->  
+ <!----Start Book Now Page---->
+<!--Top image (Change)-->
+<section class="bg-dark text-light p-3 text-left">
+<div class="container">
+  <div class="row">
+    <img src="images/speakeasyguests.jpeg" class="img-fluid" alt="Speakeasy guests">
+  </div>
+  <div class="row pt-3">
+    <p>
+      there is gonna be some text here but idk what it will say
+    </p>
+  </div>
+  <!--Form Start-->
+  <div class="row pt-3">
+    <div class="col">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<!--Form End-->
+  </section>
+<!--Top image end-->
 
-        <!--Footer time-->
+
+<!--Footer time-->
 <footer class="bg-dark text-center text-white">
    
     <div class="container p-4">
@@ -84,7 +146,7 @@
       </section>
       <!-- Text -->
   
-      <!-- Section: Links -->
+      <!--Links -->
       <section class="">
     
         <div class="row">
@@ -119,6 +181,7 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer time-->
+  <script src="js/bootstrap.min.js"></script>
         </body>
 
         
