@@ -41,9 +41,7 @@
                     <li class="nav-item">
                         <a href="packages.html" class="nav-link">Packages</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="pricing.html" class="nav-link">Prices</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>
@@ -72,8 +70,91 @@
       </p>
     </div>
   </div>
-  <!---ACC PACK--->
-  <div class="accordion p-5" id="accordionExample">
+
+  <div class="accordion" id = "Packages">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class = "accordion-button" type = "button" data-bs-toggle="collapse" data-bs-target = #collapseOne aria-expanded="false" aria-controls = "collapseOne">
+          No Holds Bar
+        </button>
+      </h2>
+      <div id = "collapseOne" class = "accordion-collapse collapse show" data-bs-parent="Packages">
+        <div class = "accordion-body">
+          <strong>As it says on the tin, we turn up with our full cocktail menu, mix it 
+            like the mixologist demons we are, and your guests have the best time 
+            of their lives. What a night to remember! This package includes the 
+            supply and preparation of all cocktail ingredients, required cocktail 
+            glassware, bar equipment, and all consumables such as ice, straws, and 
+            garnishes.</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class = "accordion-button" type = "button" data-bs-toggle="collapse" data-bs-target = #collapseTwo aria-expanded="false" aria-controls = "collapseTwo">
+          Open Bar
+        </button>
+      </h2>
+      <div id = "collapseTwo" class = "accordion-collapse collapse show" data-bs-parent="Packages">
+        <div class = "accordion-body">
+          <strong>Our most popular all-inclusive option, you get to choose a selection of 
+            cocktails from our menu, and we will do the rest. Choices range from 
+            popular classics and modern mixology to unique, bespoke creations. 
+            Nothing is pre-made; all cocktails will be prepared a-la-carte to your 
+            guests in front of them as they order. This package includes the supply 
+            and preparation of all cocktail ingredients, required cocktail glassware, 
+            bar equipment, and all consumables such as ice, straws, and garnishes. </strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class = "accordion-button" type = "button" data-bs-toggle="collapse" data-bs-target = #collapseThree aria-expanded="false" aria-controls = "collapseThree">
+          Token Bar
+        </button>
+      </h2>
+      <div id = "collapseThree" class = "accordion-collapse collapse show" data-bs-parent="Packages">
+        <div class = "accordion-body">
+          <strong>Give us a budget and we will create a unique token according to your 
+            theme, for your guests to exchange for cocktails at our speakeasy. 
+            They get to choose from a great selection of cocktails on our menu, 
+            and we will make them to order. Allocate 2, 3 or more tokens to each 
+            guest and once they have been exchanged, we can either be on our way 
+            or we can switch over to a paying bar and let the party keep going. 
+            This package includes the supply and preparation of all cocktail 
+            ingredients, required cocktail glassware, bar equipment, and all 
+            consumables such as ice, straws, and garnishes.</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class = "accordion-button" type = "button" data-bs-toggle="collapse" data-bs-target = #collapseFour aria-expanded="false" aria-controls = "collapseFour">
+          Welcome Bar
+        </button>
+      </h2>
+      <div id = "collapseFour" class = "accordion-collapse collapse show" data-bs-parent="Packages">
+        <div class = "accordion-body">
+          <strong>Whether you're after a bespoke creation to mark the special occasion 
+            or have a couple of classic cocktails in mind, we can be prepped and 
+            ready to welcome your guests with an expertly mixed cocktail to really 
+            get the party started. Tell us what you want, and we'll get it for you. 
+            This can include specialist spirits, cocktails, welcome drinks, table wine 
+            and even champagne/prosecco for toasting. Once the welcome drinks have been drunk, 
+            we can drive off into the night or we can offer a paid bar service for your 
+            guests to enjoy. </strong>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!---ACC PACK
+  <div class="accordion p-5" id="accordion">
     <div class="card">
       <div class="card-header" id="headingOne">
         <h5 class="mb-0">
@@ -83,7 +164,7 @@
         </h5>
       </div>
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
           As it says on the tin, we turn up with our full cocktail menu, mix it 
           like the mixologist demons we are, and your guests have the best time 
@@ -102,7 +183,7 @@
           </button>
         </h5>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
         <div class="card-body">
           Our most popular all-inclusive option, you get to choose a selection of 
           cocktails from our menu, and we will do the rest. Choices range from 
@@ -123,7 +204,7 @@
           </button>
         </h5>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
         <div class="card-body">
           Give us a budget and we will create a unique token according to your 
           theme, for your guests to exchange for cocktails at our speakeasy. 
@@ -140,13 +221,13 @@
     <div class = "card">
       <div class = "card-header" id="Welcomepack">
         <h5 class = "mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle = "collapse" 
-          data-target="#collapseWelcompack" aria-expanded="false" aria-controls="collapseWelcomepack">
+          <button class="accordion-button" type="button" data-bs-toggle = "collapse" 
+          data-bs-target="#collapseWelcompack" aria-expanded="true" aria-controls="collapseWelcomepack">
           Welcome Bar
           </button>
         </h5>
       </div>
-      <div id="collapseWelcomepack" class="collapse" aria-labelledby = "headingWelcomepack" data-parent="#accordionExample">
+      <div id="collapseWelcomepack" class="collapse" aria-labelledby = "headingWelcomepack" data-parent="#accordion">
         <div class = "card-body">
           Whether you're after a bespoke creation to mark the special occasion 
           or have a couple of classic cocktails in mind, we can be prepped and 
@@ -167,7 +248,7 @@
       regarding your event and can provide a quote.
     </p>
   </div>
-</section> 
+</section> ---->
 
 
     
@@ -220,9 +301,7 @@
               <li>
                 <a href="packages.html" class="text-white">Packages</a>
               </li>
-              <li>
-                <a href="pricing.html" class="text-white">Pricing</a>
-              </li>
+              
               <li>
                 <a href="contact.html" class="text-white">Contact</a>
               </li>
